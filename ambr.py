@@ -3,6 +3,8 @@
 from commandlist import CommandList
 import channels as ch
 import time
+
+
 class Ambrosio(object):
 	"""Class for Ambrosio Personal Digital Butler
 
