@@ -6,11 +6,13 @@
       super(CommandList, self).__init__()
       self.commands =[]
 
+
+
     def next(self):
-      pass
+        pass
 
     def append(self, command):
-      pass
+        self.commands.apend(command)
 
     def length(self):
-      pass
+        return len(self.commands)
